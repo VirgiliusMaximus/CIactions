@@ -4,7 +4,7 @@ test('Git action practice 1', async ({ page }) => {
     console.log("Start practice test 1")
     await page.goto('https://www.saucedemo.com/');
     console.log(await page.title());
-    expect(page).toHaveTitle("SWag Labs");
+    expect(page).toHaveTitle("Swag Labs");
     console.log("End practice test 1")
 });
 
@@ -12,7 +12,7 @@ test('Git action practice 2', async ({ page }) => {
     console.log("Start practice test 2")
     await page.goto('https://www.saucedemo.com/');
     console.log(await page.title());
-    expect(page).toHaveTitle("SWag Labs wrong");
+    expect(page).toHaveTitle("Swag Labs wrong");
     console.log("End practice test 2")
 });
 test.describe('Describe test 3,4,5', async () => {
@@ -20,7 +20,7 @@ test.describe('Describe test 3,4,5', async () => {
         console.log("Start practice test 3")
         await page.goto('https://www.saucedemo.com/');
         console.log(await page.title());
-        expect(page).toHaveTitle("SWag Labs");
+        expect(page).toHaveTitle("Swag Labs");
         console.log("End practice test 3")
     });
 
@@ -28,7 +28,7 @@ test.describe('Describe test 3,4,5', async () => {
         console.log("Start practice test 4")
         await page.goto('https://www.saucedemo.com/');
         console.log(await page.title());
-        expect(page).toHaveTitle("SWag Labs");
+        expect(page).toHaveTitle("Swag Labs");
         console.log("End practice test 4")
     });
 
@@ -36,7 +36,7 @@ test.describe('Describe test 3,4,5', async () => {
         console.log("Start practice test 5")
         await page.goto('https://www.saucedemo.com/');
         console.log(await page.title());
-        expect(page).toHaveTitle("SWag Labs");
+        expect(page).toHaveTitle("Swag Labs");
         console.log("End practice test 5")
     });
 });
@@ -45,7 +45,7 @@ test('Git action practice 6', async ({ page }) => {
     console.log("Start practice test 6")
     await page.goto('https://www.saucedemo.com/');
     console.log(await page.title());
-    expect(page).toHaveTitle("SWag Labs");
+    expect(page).toHaveTitle("Swag Labs");
     console.log("End practice test 6")
 });
 
@@ -53,6 +53,6 @@ test('Git action practice 7', async ({ page }) => {
     console.log("Start practice test 7")
     await page.goto('https://www.saucedemo.com/');
     console.log(await page.title());
-    expect(page).toHaveTitle("SWag Labs");
+    expect(page).toHaveTitle("Swag Labs");
     console.log("End practice test 7")
 });
